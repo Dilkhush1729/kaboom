@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body button{
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: whitesmoke;
+}
+.side{
+    padding: 0% 3% 0% 3%;
+}
+nav{
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-left: 3%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+.l2{
+    margin-left: 0.9%;
+}
+.menu{
+    width: 65%;
+    padding: 1.5% 0% 0% 5%;
+    font-size: 1.17rem;
+    font-weight: lighter;
+    text-align: end;
+}
+.menu li{
+  display: inline;
+  margin-right: 4%;
+}
+.menu-item a{
+    color: #1e1e1e7a;
+    transition-duration: 1s;
+}
+.menu-item a:hover{
+    color: #a26028;
+}
+.menu-item a span{
+    color: #a26028;
+}
+.hide{
+    display: none;
+}
+.landingpage{
+    background-image: url("./image/landingimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.gradient{
+    width: 100%;
+    height: 100%;
+    background: #0000001f;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 12%;
+    background: linear-gradient(to right, rgba(17, 17, 32, 0.632), rgba(0, 128, 0, 0));
+}
+.landingpage h1{
+    font-size: 4rem;
+    color: white;
+}
+.btn{
+    padding: 0.7% 2.5% 0.7% 2.5%;
+    font-size: 1.2em;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.intro{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 2.5%;
+}
+.left{
+    width: 100%;
+   background-image: url("./image/introimg.jpeg"); 
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 40% 0% 40% 0%;
+}
+.right{
+    padding: 20% 5% 0% 10%;
+}
+.right h2{
+    font-size: 3rem;
+}
+.right p{
+    margin-top: 5%;
+    font-size: 1.3rem;
+    color: #0000009c;
+}
+.btn-2{
+    margin-top: 5%;
+    padding: 1.7% 5% 1.7% 5%;
+    background-color: #000;
+    cursor: pointer;
+} 
+.btn-2 a{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.why-we-choose{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.reason{
+    padding-top: 5%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 5%; 
+}
+.why-we-choose h2{
+    text-align: center;
+    font-size: 2.7rem;
+}
+.reason1{
+    text-align: center;
+}
+.reason1 h3{
+   font-size: 1.4rem;
+   color: #a26028;
+}
+.reason1 p{
+    padding-top: 5%;
+    font-size: 1.1rem;
+    color: #00000089;
+}
+.our-services{
+    padding: 5%;
+    background-color: rgba(12, 11, 11, 0.05);    
+}
+.our-services h2{
+    text-align: center;
+    font-size: 2.7rem;
+    padding-bottom: 5%;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+}
+.services h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.services h3 a{
+    color: #fff;
+}
+.service-1{
+    background-image: url("./image/service1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75% 0% 75% 0%;
+}
+.service-2{
+    background-image: url("./image/bathroom.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75% 0% 75% 0%;
+}
+.service-3{
+    background-image: url("./image/interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75% 0% 75% 0%;
+}
+.all{
+    text-align: center;
+}
+.btn-3{
+    margin-top: 5%;
+    background-color: black;
+    padding: 1% 5% 1% 5%;
+}
+.btn-3 a{
+    color: #fff;
+}
+.our-customers{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+    text-align: center;
+}
+.review{
+    padding: 15% 10% 0% 10%;
+}
+.review span{
+   font-size: 4rem;
+   color: #a26028;
+}
+.review p{
+    padding-top: 5%;
+    color: #0000005f;
+}
+.review h4{
+    padding-top: 5%;
+    font-size: 1.5rem;
+    color: #a26028;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5%;
+    background-color: #000;
+    color: #ffffffb5;
+    padding: 5% 7% 5% 7%;
+}
+.f-left h2{
+   font-size: 2.9rem;
+   line-height: 135%;
+   /* color: #a26028; */
+}
+.f-left p{
+    font-size: 1.1rem;
+}
+.name,.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2%;
+}
+.name input,.info input,.Address input,.Subject input{
+    margin-top: 3%;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #000;
+    border-bottom: 2px solid #ffffff9c;
+    background-color: #000;
+    color: white;
+
+}
+.info,.des,.Subject,.Address{
+    margin-top: 3%;
+}
+.des textarea{
+    width: 100%;
+    border: 2px solid #000;
+    border-bottom: 2px solid #ffffffba;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.btn-4{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 10px;
+   padding: 1.9% 10% 1.9% 10%;
+   cursor: pointer;
+}
+.footer-main{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    padding: 2%;
+    background-color: #000;
+    color: #fff;
+    border-top: 1px solid #ffffff5e;
+}
+.footer-main span{
+    text-align: center;
+    width: 50%;
+}
+.footer-main a{
+    color: #fff;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width:900px){
+    .logo{
+        width: 60%;
+    }
+    .hide{
+        width: 40%;
+        display: block;
+        font-size: 1.5rem;
+        margin-right: 5%;
+        text-align: end;
+        padding-top: 2%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-item a{
+        display: none;
+    }
+    .reason{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10%;
+    }
+    .intro{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .left{
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:769px){
+   .reason{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 5%;
+   }
+   .intro{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 5%;
+   }
+   .services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .service-1,.service-2,.service-3{
+    padding: 50% 0% 50% 0%;
+   }
+}
